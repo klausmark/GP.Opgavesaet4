@@ -8,6 +8,13 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">Opgave 4.2 - Dice klassen</TextBlock>
+        <Button Grid.Row="1" Width="200" Height="50" Content="Kast terning" Command="{Binding Path=ThrowDiceCommand}"/>
+        <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Text="{Binding Path=LastDiceResult}"/>
     </Grid>
 </UserControl>
