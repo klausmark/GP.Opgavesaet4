@@ -40,9 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DelegateCommand.cs" />
-    <Compile Include="MainWindowViewModel.cs" />
-    <Compile Include="NotifyBase.cs" />
+    <Compile Include="Helpers\DelegateCommand.cs" />
+    <Compile Include="ViewModels\FrontPageUserControlViewModel.cs" />
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="BaseClasses\NotifyBase.cs" />
+    <Compile Include="ViewModels\Opgave41UserControlViewModel.cs" />
+    <Compile Include="ViewModels\Opgave42UserControlViewModel.cs" />
+    <Compile Include="ViewModels\Opgave43UserControlViewModel.cs" />
+    <Compile Include="ViewModels\Opgave44UserControlViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +56,7 @@
       <Name>GP.Opgavesaet4.Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

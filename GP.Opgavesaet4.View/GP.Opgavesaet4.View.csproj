@@ -55,8 +55,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UserControls\FrontPageUserControl.xaml.cs">
+      <DependentUpon>FrontPageUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Opgave41UserControl.xaml.cs">
+      <DependentUpon>Opgave41UserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Opgave42UserControl.xaml.cs">
+      <DependentUpon>Opgave42UserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Opgave43UserControl.xaml.cs">
+      <DependentUpon>Opgave43UserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Opgave44UserControl.xaml.cs">
+      <DependentUpon>Opgave44UserControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewHelpers\ViewModelLocator.cs" />
-    <Page Include="MainWindow.xaml">
+    <Page Include="Windows\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -64,10 +79,30 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="Windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserControls\FrontPageUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Opgave41UserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Opgave42UserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Opgave43UserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Opgave44UserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

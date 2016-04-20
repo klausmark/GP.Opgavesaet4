@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace GP.Opgavesaet4.ViewModel
+namespace GP.Opgavesaet4.ViewModel.BaseClasses
 {
     public class NotifyBase : INotifyPropertyChanged
     {

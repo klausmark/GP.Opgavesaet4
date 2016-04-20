@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace GP.Opgavesaet4.ViewModel
+namespace GP.Opgavesaet4.ViewModel.Helpers
 {
     public class DelegateCommand : ICommand
     {

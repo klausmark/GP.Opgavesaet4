@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace GP.Opgavesaet4.View
+namespace GP.Opgavesaet4.View.UserControls
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Opgave41UserControl.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Opgave41UserControl : UserControl
     {
-        public MainWindow()
+        public Opgave41UserControl()
         {
             InitializeComponent();
         }
