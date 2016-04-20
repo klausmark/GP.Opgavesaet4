@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Coin.cs" />
     <Compile Include="Dice.cs" />
+    <Compile Include="DiceExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vehicle.cs" />
   </ItemGroup>

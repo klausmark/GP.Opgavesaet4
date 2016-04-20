@@ -8,6 +8,16 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">Opgave 4.3 - Dice klassen igen</TextBlock>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label VerticalAlignment="Center">Antal kast: </Label>
+            <TextBox VerticalAlignment="Center" Width="100" Text="{Binding Path=NumberOfThrows}"/>
+        </StackPanel>
+        <ListView Grid.Row="2" ItemsSource="{Binding Path=Throws}" />
     </Grid>
 </UserControl>
