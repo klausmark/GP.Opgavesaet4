@@ -7,7 +7,5 @@
              DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=FrontPageUserControlViewModel}"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-            
-    </Grid>
+    <TextBlock Text="{Binding Path=Tekst}"/>
 </UserControl>

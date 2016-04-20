@@ -67,9 +67,6 @@
     <Compile Include="UserControls\Opgave43UserControl.xaml.cs">
       <DependentUpon>Opgave43UserControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\Opgave44UserControl.xaml.cs">
-      <DependentUpon>Opgave44UserControl.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewHelpers\ViewModelLocator.cs" />
     <Page Include="Windows\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -96,10 +93,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControls\Opgave43UserControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserControls\Opgave44UserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

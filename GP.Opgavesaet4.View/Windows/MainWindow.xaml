@@ -20,8 +20,5 @@
         <TabItem Header="Opgave 4.3">
             <userControls:Opgave43UserControl />
         </TabItem>
-        <TabItem Header="Opgave 4.4">
-            <userControls:Opgave44UserControl />
-        </TabItem>
     </TabControl>
 </Window>
